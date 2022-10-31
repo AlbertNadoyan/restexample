@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/author_book_rest
+    username: root
+    password: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+server:
+  port: 8081
+jwt:
+  secret: sl;78_jyt#*!fcd45%
+  expiration: 330000
